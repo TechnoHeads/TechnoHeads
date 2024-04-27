@@ -10,7 +10,6 @@ import Foundation
 struct ServiceResponse: Codable {
     let result: Result?
 }
-
 struct Result: Codable {
     let code, message, userid: String?
     let name, photo: String?
